@@ -119,10 +119,7 @@ footer {
 	25%{background-color: blue;}
 	50%{background-color: orange;}
 	75%{background-color: violet;}
-	75%{background-color: lightblue;}
-	75%{}
-	75%{}
-	100%{}
+	100%{background-color: lightblue;}
 }
 
 @keyframes anima {
