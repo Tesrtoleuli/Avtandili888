@@ -107,8 +107,23 @@ footer {
 }
 
 
+.tra-ani {
+ animation-name: color-change;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
 
-
+@keyframes color-change {
+	0%{background-color: red;}
+	25%{background-color: blue;}
+	50%{background-color: orange;}
+	75%{background-color: violet;}
+	75%{background-color: lightblue;}
+	75%{}
+	75%{}
+	100%{}
+}
 
 @keyframes anima {
 	
