@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(Background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.flexbox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 60px;
+
+}
+
+header > h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 125%;
+	color: #CE1414;
+	cursor: pointer;
+
+
+	animation-name: anima-;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+
+}
+
+ul li {
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px 10px;
+	font-size: 125%;
+	color: #CE1414;
+	cursor: pointer;
+
+}
+
+header > div   {
+	font-family:'Monda', sans-serif;
+	color: #CE1414;
+	display: flex;
+	align-items: center;
+	font-size: 19px;
+}
+
+header > div > h1 {
+	font-size: 125%;
+}
+
+
+
+
+
+
+
+h4 {
+	font-family:'Monda', sans-serif;
+	margin-top: 85px;
+	font-size: 20px;
+
+}
+
+
+
+
+
+
+footer {
+	width: 650px;
+	height: 170px;
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 70%;
+	margin: auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+	background: linear-gradient(180deg, #B68686 0%, rgba(214, 79, 79, 0.28) 100%);
+    border-radius: 20px;
+
+    font-family:'Monda', sans-serif;
+    color: white;
+}
+
+
+
+.sonflex {
+	display: flex;
+	align-items: center;
+
+}
+
+
+
+
+
+@keyframes anima {
+	
+	25% {color: green;}
+	50% {color: #6D0B70;}
+	75% {color: blue;}
+}
