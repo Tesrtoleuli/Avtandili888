@@ -35,9 +35,32 @@
 	        dwan of the Earth</h1>
 	        <h4 style="position: absolute; left: 0; right: 0; top: 34%;">Remember that happiness is a way of travel, not a destination</h4>
  </center>
-		<video src="testVid.webm"  width="500" loop controls autoplay >videoa</video>
+<!-- 		<video src="testVid.webm"  width="500" loop controls autoplay >videoa</video> -->
 	</main>
 	<footer>
+		<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="102625638570598">
+      </div>
 		<div class="sonflex" style="display: flex; align-items: flex-end;">
 			<div class="foot-flex-1">
 				<p style="font-size: 25px;">From</p>
